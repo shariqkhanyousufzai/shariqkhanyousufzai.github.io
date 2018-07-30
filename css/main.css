@@ -55,3 +55,13 @@ p {color:gray;}
     position: absolute;
     margin: -5% 0% 0% 40%;
 }
+@media only screen and (max-width: 600px) {
+    .container {
+     margin: 20% auto;
+    }
+    .mrbean{
+        z-index: -1;
+        position: absolute;
+        margin: -15% 0% 0% 15%;
+    }
+}
